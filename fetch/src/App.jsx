@@ -1,9 +1,11 @@
-import React from 'react'
+import TodoList from "./Components/TodoList/Todolist";
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
-  )
+    <>
+      <TodoList />
+    </>
+  );
 }
 
-export default App
+export default App;
